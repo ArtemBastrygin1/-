@@ -51,7 +51,7 @@ while True:
             print(f'Все введеные числа при отгадывании!')
             print(all_numbers)
             win_game()
-            break
+            exit()
         else:
             print("Не угадал! Загаданное число меньше!")
             attempts += 1
